@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 /* To make our websites same in every browser */
 
 h1 {
@@ -42,12 +46,18 @@ li {
   background-color: aquamarine;
 }
 
+.profession h3 {
+  font-size: 2rem;
+}
+
 .company {
   background-color: fuchsia;
+  font-size: 20px;
 }
 
 .company h3 {
   color: white;
+  font-size: 1.5em;
 }
 
 #wish-list {
@@ -65,13 +75,19 @@ input[type='email'] {
 }
 
 /* Grouping selectors */
-
+/* 
 h1,
 h2,
 h3,
 h4 {
   color: bisque;
   font-size: 32px;
-}
+} */
 
-
+/* CSS Measurements */
+/* Relative and absolute */
+/* Absolute - cm, in, mm, pc, pt, px */
+/* Relative - em, rem, % */
+/* % --> Dimensions */
+/* em --> fonts */
+/* rem = */
