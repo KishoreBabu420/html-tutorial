@@ -1,0 +1,77 @@
+/*CSS Selectors  */
+/* Type Selector */
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* To make our websites same in every browser */
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 42px;
+}
+
+h2 {
+  color: green;
+  text-align: right;
+  font-size: 36px;
+}
+
+/* Descendant Selector */
+
+header h3 {
+  font-size: 32px;
+  color: orange;
+}
+
+section h3 {
+  font-size: 24px;
+  color: yellowgreen;
+}
+
+li {
+  font-size: 24px;
+}
+
+/* class selectors */
+.profession {
+  background-color: aquamarine;
+}
+
+.company {
+  background-color: fuchsia;
+}
+
+.company h3 {
+  color: white;
+}
+
+#wish-list {
+  background-color: bisque;
+}
+
+/* Attribute Selector */
+input[type='text'] {
+  font-size: 36px;
+}
+
+input[type='email'] {
+  font-size: 42px;
+  background-color: blanchedalmond;
+}
+
+/* Grouping selectors */
+
+h1,
+h2,
+h3,
+h4 {
+  color: bisque;
+  font-size: 32px;
+}
+
+
