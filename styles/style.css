@@ -11,67 +11,32 @@ html {
   font-size: 16px;
 }
 
-/* To make our websites same in every browser */
+header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-h1 {
-  color: blue;
-  text-align: center;
-  font-size: 42px;
+  /* background-color: #1c2042;
+  background-image: url('https://images.unsplash.com/photo-1644982654072-0b42e6636821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; */
+
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
 }
 
-h2 {
-  color: green;
-  text-align: right;
-  font-size: 36px;
-}
-
-/* Descendant Selector */
-
-header h3 {
-  font-size: 32px;
-  color: orange;
-}
-
-section h3 {
-  font-size: 24px;
-  color: yellowgreen;
-}
-
-li {
-  font-size: 24px;
-}
-
-/* class selectors */
-.profession {
-  background-color: aquamarine;
-}
-
-.profession h3 {
-  font-size: 2rem;
-}
-
-.company {
-  background-color: fuchsia;
-  font-size: 20px;
-}
-
-.company h3 {
-  color: white;
-  font-size: 1.5em;
-}
-
-#wish-list {
-  background-color: bisque;
-}
-
-/* Attribute Selector */
-input[type='text'] {
-  font-size: 36px;
-}
-
-input[type='email'] {
-  font-size: 42px;
-  background-color: blanchedalmond;
+header h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Grouping selectors */
@@ -91,3 +56,11 @@ h4 {
 /* % --> Dimensions */
 /* em --> fonts */
 /* rem = */
+
+/* CSS Colors */
+/* Color Names --> Is not better choice */
+/* RGB - 256*256*256 */
+/* HEX Code -#111111 */
+/* hsl() */
+
+/* CSS Backgrounds */
