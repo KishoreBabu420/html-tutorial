@@ -5,38 +5,52 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 16px;
 }
 
-header {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* background-color: #1c2042;
-  background-image: url('https://images.unsplash.com/photo-1644982654072-0b42e6636821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; */
-
-  background: rgb(34, 193, 195);
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(100, 65, 152);
   background: linear-gradient(
     0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
+    rgba(100, 65, 152, 1) 8%,
+    rgba(96, 175, 143, 1) 78%
   );
 }
 
-header h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
+.img-car {
+  /* border, width, height */
+  width: 480px;
+  height: 100%;
+  padding: 16px;
+  border: 2px solid #1c2042;
+  margin: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(96, 175, 143, 1);
+  cursor: pointer;
+}
+
+a:link {
+  color: rgb(100, 65, 152);
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color: blueviolet;
 }
 
 /* Grouping selectors */
@@ -64,3 +78,15 @@ h4 {
 /* hsl() */
 
 /* CSS Backgrounds */
+
+/* CSS Fonts */
+
+/* Font Family -- Type of Font */
+/*font size, font-weight */
+
+/* CSS Text */
+/* Color --  */
+/* direction */
+/* } */
+
+/* links */
